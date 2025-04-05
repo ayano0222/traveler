@@ -115,7 +115,6 @@ GEM
     domain_name (0.6.20240107)
     drb (2.2.1)
     erubi (1.13.1)
-    ffi (1.17.1-x64-mingw-ucrt)
     globalid (1.2.1)
       activesupport (>= 6.1)
     http-accept (1.7.0)
@@ -292,7 +291,6 @@ DEPENDENCIES
   capybara
   debug
   error_highlight (>= 0.4.0)
-  ffi
   importmap-rails
   jbuilder
   puma (>= 5.0)
