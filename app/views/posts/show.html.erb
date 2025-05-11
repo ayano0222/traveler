@@ -26,6 +26,8 @@
             <% end %>
           <% end %>
         </p>
+
+        <p class="caption">閲覧数 <%= @post.view_counts.count %></p>
         <h2>感想</h2>
         <p id="text"><%= @post.text %></p>
         <% if @post.user == current_user %>
