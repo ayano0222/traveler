@@ -15,6 +15,9 @@ Rails.application.routes.draw do
     end
   end
 
+  resource :messages, only: [:create]
+  resource :rooms, only: [:create, :index, :show]
+
   get "up" => "rails/health#show", as: :rails_health_check
   root :to => 'homes#top'
 end
